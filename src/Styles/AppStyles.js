@@ -32,6 +32,10 @@ export default (theme) => ({
         right: '0px',
         top: '0px',
         width: '100%',
+      },
+
+      navLink: {
+
       }
 
 })

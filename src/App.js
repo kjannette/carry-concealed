@@ -1,7 +1,7 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core';
-import AppStyles from './AppStyles';
-import Link from '@material-ui/core/Link';
+import { withStyles, Button } from '@material-ui/core';
+import AppStyles from './Styles/AppStyles';
+import './Styles/MuiOverrides.css'
 
 class App extends React.Component {
 
@@ -16,9 +16,9 @@ class App extends React.Component {
         return (
             <>
                 <div className={classes.navContainer}>
-                    <Link className={classes.navLink} href="#home">Home </Link>
-                    <Link href="#news">News </Link>
-                    <Link href="#contact">Contact </Link>
+                    <Button className={classes.buttonOne} variant="outlined" href="#home">Home </Button>
+                    <Button variant="outlined" href="#news">News </Button>
+                    <Button variant="outlined" href="#contact">Contact </Button>
                 </div>
                 <div className={classes.mainContainer}> 
                     <div className={classes.mainHeading}>
