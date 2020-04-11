@@ -4,6 +4,10 @@ import AppStyles from './AppStyles';
 import Link from '@material-ui/core/Link';
 
 class App extends React.Component {
+
+    UNSAFE_componentWillMount(){
+        document.getElementById('body').style.margin = "0px"
+      }
     
     render() {
 

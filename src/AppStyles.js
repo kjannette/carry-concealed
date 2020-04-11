@@ -1,24 +1,23 @@
 export default (theme) => ({
 
-    body: {
-        margin: '0px',
-        border: '0px',
-        position: '0px',
+    bodyClass: {
+        marginLeft: '0px',
+        marginRight: '0px',
     },
-
     mainContainer: {
         backgroundColor: '#eaeaea',
         height: '1020px',
     },
     mainHeading: {
         color: '#333',
-        display: 'block',
+        display: 'flex',
         justifyContent: 'center',
         fontFamily: 'Roboto',
         fontSize: '96px',
         fontWeight: '300',
         letterSpacing: '-3.0px',
-        paddingTop: '50px',
+        marginTop: '30px',
+        paddingTop: '40px',
     },
       navContainer: {
         backgroundColor: '#fff',
