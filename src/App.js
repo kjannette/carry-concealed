@@ -16,7 +16,7 @@ class App extends React.Component {
         return (
             <>
                 <div className={classes.navContainer}>
-                    <Link href="#home">Home </Link>
+                    <Link className={classes.navLink} href="#home">Home </Link>
                     <Link href="#news">News </Link>
                     <Link href="#contact">Contact </Link>
                 </div>
