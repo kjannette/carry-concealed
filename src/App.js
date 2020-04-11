@@ -2,6 +2,7 @@ import React from 'react';
 import { withStyles, Button } from '@material-ui/core';
 import AppStyles from './Styles/AppStyles';
 import './Styles/MuiOverrides.css'
+import gunIcon from './images/gunIcon.png'
 
 class App extends React.Component {
 
@@ -16,10 +17,19 @@ class App extends React.Component {
         return (
             <>
                 <div className={classes.navContainer}>
-                    <Button className={classes.buttonOne} variant="outlined" href="#home">Home </Button>
-                    <Button variant="outlined" href="#news">News </Button>
-                    <Button variant="outlined" href="#contact">Contact </Button>
+
+                    <div className={classes.navContainerLogo}>
+                        <img className={classes.logo} src={gunIcon}></img>
+                    </div>
+
+                    <div className={classes.navContainerButtons}>
+                        <Button variant="outlined" href="#home">Home </Button>
+                        <Button variant="outlined" href="#news">News </Button>
+                        <Button variant="outlined" href="#contact">Contact </Button>
+                    </div>
+ 
                 </div>
+
                 <div className={classes.mainContainer}> 
                     <div className={classes.mainHeading}>
                         Concealed Weapons Permits
@@ -31,3 +41,7 @@ class App extends React.Component {
 }
    
 export default withStyles(AppStyles)(App);
+
+/*
+    <img className={classes.logo} src={gunIcon}></img>
+*/
