@@ -4,6 +4,14 @@ export default (theme) => ({
         marginLeft: '0px',
         marginRight: '0px',
     },
+    headerText: {
+      color: '#878383',
+      display: 'inline-block',
+      fontFamily: 'Roboto',
+      fontWeight: '100',
+      fontStyle: 'italic',
+      width: '270px',
+    },
     logo: {
         height: '50px',
         marginLeft: '50px',
