@@ -12,11 +12,9 @@ class App extends React.Component {
         return (
             <>
                 <div className={classes.navContainer}>
-                    <div className={classes.navBar}>
-                        <Link href="#home">Home</Link>
-                        <Link href="#news">News</Link>
-                        <Link href="#contact">Contact</Link>
-                    </div>
+                    <Link href="#home">Home </Link>
+                    <Link href="#news">News </Link>
+                    <Link href="#contact">Contact </Link>
                 </div>
                 <div className={classes.mainContainer}> 
                     <div className={classes.mainHeading}>
