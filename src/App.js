@@ -2,7 +2,7 @@ import React from 'react';
 import { withStyles, Button } from '@material-ui/core';
 import AppStyles from './Styles/AppStyles';
 import './Styles/MuiOverrides.css'
-import gunIcon from './images/gunIcon.png'
+import glock from './images/glock.png'
 
 class App extends React.Component {
 
@@ -19,7 +19,7 @@ class App extends React.Component {
                 <div className={classes.navContainer}>
 
                     <div className={classes.navContainerLogo}>
-                        <img className={classes.logo} src={gunIcon}></img>
+                        <img className={classes.logo} src={glock}></img>
                     </div>
 
                     <div className={classes.navContainerButtons}>
