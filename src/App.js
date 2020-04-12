@@ -43,15 +43,26 @@ class App extends React.Component {
                         <Divider  className={classes.divider}/>
                     </div>
        
-                    <div className={classes.mainTextContainer}>
+                        <div className={classes.mainTextContainerLeft}>
 
-                        <Typography className={classes.mainText}>
+                            <div className={classes.mainTextLeft}>
 
-                            <p>Welcome to your starting point for informaiton about concealed weapons permits.online. (asterisk disclaimer)</p>
-                        
-                        </Typography>
+                                <Typography className={classes.textLeft}>
 
-                    </div>
+                                    <p>Welcome to the prime starting point for information about concealed weapons permits.online. (asterisk disclaimer)</p>
+
+                                    <p>The regulations regarding carrying a concealed weapon and concealed weapons permits  are generally govermened by state law, not federal gun laws (with some exceptions).  Therefore, the rights and obligations about carrying a concealed weapon 
+                                        and concealed weapons permtis  vary from state to state.</p>
+                                
+                                </Typography>
+
+                            </div>
+
+                        </div>
+
+                        <div className={classes.mainTextContainerRight}>
+
+                        </div>
 
                 </div>
             </>

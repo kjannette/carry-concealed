@@ -33,14 +33,22 @@ export default (theme) => ({
         marginTop: '48px',
         paddingTop: '45px',
     },
-    mainText: {
-      display: 'grid',
-      fontWeight: '100',
+    mainTextContainerLeft: {
+      float: 'left',
+      height: '810px',
+      marginTop: '12px',
+      overflow: 'auto',
+      width: '65%',
     },
-    mainTextContainer: {
-      display: 'grid',
-      justifyContent: 'left',
-      marginLeft: '25px',
+    mainTextContainerRight: {
+      float: 'right',
+      backgroundColor: 'red',
+      height: '810px',
+      marginTop: '12px',
+      width: '35%',
+    },
+    mainTextLeft: {
+      marginLeft: '12px'
     },
     navBarText: {
       color: '#878383',
@@ -87,5 +95,8 @@ export default (theme) => ({
         width: '50%',
         display: 'inline-block',
         textAlign: 'left',
-      }
+      },
+      textLeft: {
+        fontWeight: '100',
+      },
 })
