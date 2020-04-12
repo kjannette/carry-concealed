@@ -12,6 +12,11 @@ export default (theme) => ({
       justifyContent: 'center',
       marginTop: '20px',
     },
+    footer: {
+      clear: 'both',
+      backgroundColor: 'blue',
+      height: '75px',
+    },
     logo: {
         height: '50px',
         marginLeft: '50px',
@@ -19,7 +24,7 @@ export default (theme) => ({
     },
     mainContainer: {
         backgroundColor: '#eaeaea',
-        height: '1020px',
+        height: '1050px',
     },
     mainHeading: {
         color: '#333',
@@ -34,8 +39,9 @@ export default (theme) => ({
         paddingTop: '45px',
     },
     mainTextContainerLeft: {
+      backgroundColor: '#eaeaea',
       float: 'left',
-      height: '810px',
+      height: '100%',
       marginTop: '12px',
       overflow: 'auto',
       width: '65%',
@@ -43,7 +49,7 @@ export default (theme) => ({
     mainTextContainerRight: {
       float: 'right',
       backgroundColor: 'red',
-      height: '810px',
+      height: '100%',
       marginTop: '12px',
       width: '35%',
     },
