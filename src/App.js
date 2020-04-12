@@ -20,7 +20,7 @@ class App extends React.Component {
 
                     <div className={classes.navContainerLogo}>
                         <img className={classes.logo} src={glock}></img>
-                        <p className={classes.headerText}>Concealed Weapons Permits: your guide</p>
+                        <p className={classes.navBarText}>Concealed Weapons Permits: your guide</p>
                     </div>
 
                     <div className={classes.navContainerButtons}>

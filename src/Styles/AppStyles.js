@@ -4,12 +4,15 @@ export default (theme) => ({
         marginLeft: '0px',
         marginRight: '0px',
     },
-    headerText: {
+    navBarText: {
       color: '#878383',
       display: 'inline-block',
       fontFamily: 'Roboto',
       fontWeight: '100',
       fontStyle: 'italic',
+      paddingLeft: '12px',
+      position: 'relative',
+      top: '-10px',
       width: '270px',
     },
     logo: {
@@ -26,7 +29,7 @@ export default (theme) => ({
         display: 'flex',
         justifyContent: 'center',
         fontFamily: 'Roboto',
-        fontSize: '96px',
+        fontSize: '80px',
         fontWeight: '100',
         letterSpacing: '-3.0px',
         marginTop: '48px',
