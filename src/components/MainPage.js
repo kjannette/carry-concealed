@@ -49,7 +49,7 @@ class MainPage extends React.Component {
 
                                 <Typography className={classes.textLeft}>
 
-                                    <p><b>Welcome to your best starting point for information about concealed weapons permits online. </b>(asterisk disclaimer)</p>
+                                    <p><b>Welcome to your best starting point for information about concealed weapons permits online. </b></p>
 
                                     <p>The regulations regarding carrying a concealed weapon and concealed weapons permits  are generally govermened by state law, not federal gun laws (with some exceptions).  Therefore, the rights and obligations about carrying a concealed weapon 
                                         and concealed weapons permtis  vary from state to state.</p>
@@ -78,6 +78,16 @@ class MainPage extends React.Component {
                         </div>
 
                         <div className={classes.mainTextContainerRight}>
+
+                        </div>
+
+                        <div className={classes.footer}>
+
+                        <Typography className={classes.footerText}>
+                            <p>All content Copyright 2020 concealedweaponspermits.net<br></br>
+                                This website is for informational puposes only.  The materials contained herein are not intended to, and do not constitute legal advice. <br></br>
+                                Readers should seek professional counsel.</p>
+                        </Typography>
 
                         </div>
 
