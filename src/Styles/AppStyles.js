@@ -4,16 +4,13 @@ export default (theme) => ({
         marginLeft: '0px',
         marginRight: '0px',
     },
-    navBarText: {
-      color: '#878383',
-      display: 'inline-block',
-      fontFamily: 'Roboto',
-      fontWeight: '100',
-      fontStyle: 'italic',
-      paddingLeft: '12px',
-      position: 'relative',
-      top: '-10px',
-      width: '270px',
+    divider: {
+      width: '1000px',
+    },
+    dividerBox: {
+      display: 'flex',
+      justifyContent: 'center',
+      marginTop: '20px',
     },
     logo: {
         height: '50px',
@@ -34,7 +31,27 @@ export default (theme) => ({
         height: '85px',
         letterSpacing: '-3.0px',
         marginTop: '48px',
-        paddingTop: '40px',
+        paddingTop: '45px',
+    },
+    mainText: {
+      display: 'grid',
+      fontWeight: '100',
+    },
+    mainTextContainer: {
+      display: 'grid',
+      justifyContent: 'left',
+      marginLeft: '25px',
+    },
+    navBarText: {
+      color: '#878383',
+      display: 'inline-block',
+      fontFamily: 'Roboto',
+      fontWeight: '100',
+      fontStyle: 'italic',
+      paddingLeft: '12px',
+      position: 'relative',
+      top: '-10px',
+      width: '270px',
     },
       navContainer: {
         backgroundColor: '#fff',
@@ -63,6 +80,7 @@ export default (theme) => ({
         fontSize: '40px',
         fontWeight: '100',
         letterSpacing: '-3.0px',
+        marginTop: '7px',
     },
       navContainerLogo: {
         float: 'left',

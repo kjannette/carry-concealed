@@ -1,5 +1,5 @@
 import React from 'react';
-import { withStyles, Button } from '@material-ui/core';
+import { withStyles, Button, Divider, Typography } from '@material-ui/core';
 import AppStyles from './Styles/AppStyles';
 import './Styles/MuiOverrides.css'
 import glock from './images/glock.png'
@@ -38,6 +38,21 @@ class App extends React.Component {
                     <div className={classes.subHeading}>
                         Your source for information about carrying a concealed weapon
                     </div>
+
+                    <div className={classes.dividerBox}>
+                        <Divider  className={classes.divider}/>
+                    </div>
+       
+                    <div className={classes.mainTextContainer}>
+
+                        <Typography className={classes.mainText}>
+
+                            <p>Welcome to your starting point for informaiton about concealed weapons permits.online. (asterisk disclaimer)</p>
+                        
+                        </Typography>
+
+                    </div>
+
                 </div>
             </>
         );
@@ -45,7 +60,3 @@ class App extends React.Component {
 }
    
 export default withStyles(AppStyles)(App);
-
-/*
-    <img className={classes.logo} src={gunIcon}></img>
-*/
