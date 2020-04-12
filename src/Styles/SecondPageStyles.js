@@ -43,7 +43,7 @@ export default (theme) => ({
     },
       navContainer: {
         backgroundColor: '#fff',
-\
+        
         height: '70px',
         fontFamily: 'Roboto',
         fontSize: '20px',
