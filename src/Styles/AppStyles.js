@@ -31,6 +31,7 @@ export default (theme) => ({
         fontFamily: 'Roboto',
         fontSize: '80px',
         fontWeight: '100',
+        height: '85px',
         letterSpacing: '-3.0px',
         marginTop: '48px',
         paddingTop: '40px',
@@ -48,14 +49,21 @@ export default (theme) => ({
         top: '0px',
         width: '100%',
       },
-
       navContainerButtons: {
         float: 'left',
         width: '50%',
         display: 'inline-block',
         textAlign: 'right',
       },
-
+      subHeading: {
+        color: '#333',
+        display: 'flex',
+        justifyContent: 'center',
+        fontFamily: 'Roboto',
+        fontSize: '40px',
+        fontWeight: '100',
+        letterSpacing: '-3.0px',
+    },
       navContainerLogo: {
         float: 'left',
         width: '50%',

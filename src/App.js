@@ -35,6 +35,9 @@ class App extends React.Component {
                     <div className={classes.mainHeading}>
                         Concealed Weapons Permits
                     </div>
+                    <div className={classes.subHeading}>
+                        Your source for information about carrying a concealed weapon
+                    </div>
                 </div>
             </>
         );
