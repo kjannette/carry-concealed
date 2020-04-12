@@ -48,7 +48,8 @@ export default (theme) => ({
       width: '35%',
     },
     mainTextLeft: {
-      marginLeft: '12px'
+      marginLeft: '25px',
+      marginRight: '25px',
     },
     navBarText: {
       color: '#878383',
@@ -97,6 +98,6 @@ export default (theme) => ({
         textAlign: 'left',
       },
       textLeft: {
-        fontWeight: '100',
+        fontWeight: '300',
       },
 })
