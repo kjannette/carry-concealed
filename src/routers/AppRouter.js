@@ -1,8 +1,8 @@
 import React from 'react';
 import { Router, Route, Switch, Link, NavLink } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory'; 
-import MainPage from './MainPage';
-import SecondPage from './SecondPage';
+import MainPage from '../components/MainPage';
+import SecondPage from '../components/SecondPage';
 
 export const history = createHistory();
 
