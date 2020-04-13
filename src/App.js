@@ -1,9 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core';
-import MainPage from './components/MainPage.js'
-import SecondPage from './components/SecondPage.js'
-import MainPageStyles from './Styles/MainPageStyles';
-import SecondPageStyles from './Styles/SecondPageStyles';
+import AppRouter from './components/AppRouter';
 
 class App extends React.Component {
     
@@ -11,13 +8,13 @@ class App extends React.Component {
 
         return (
 
-           <SecondPage />
+            <AppRouter />
 
         );
     }
 }
    
-export default withStyles(MainPageStyles)(App);
+export default App; //withStyles(MainPageStyles)(App); 
 
 /*
  <MainPage />
