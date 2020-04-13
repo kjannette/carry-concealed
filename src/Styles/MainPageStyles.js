@@ -52,15 +52,14 @@ export default (theme) => ({
     mainTextContainerLeft: {
       backgroundColor: '#eaeaea',
       float: 'left',
-      height: '750px',
+      height: '950px',
       marginTop: '12px',
-      overflow: 'auto',
       width: '65%',
     },
     mainTextContainerRight: {
       float: 'right',
       backgroundColor: '#eaeaea',
-      height: '750px',
+      height: '950px',
       marginTop: '12px',
       width: '35%',
     },
