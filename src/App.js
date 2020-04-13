@@ -28,10 +28,12 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <div className={classes.root} >
           <Grid container >
+
             <Router history={history}>
               <Route exact path="/" component={MainPage}/>
               <Route exact path="/secondpage" component={SecondPage}/>
             </Router>
+ 
           </Grid>
         </div>
       </ThemeProvider>
