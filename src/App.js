@@ -4,57 +4,31 @@ import SecondPage from './components/SecondPage.js'
 import Grid from '@material-ui/core/Grid';
 import { Router, Route, Switch, Link, NavLink } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
-import {createMuiTheme, makeStyles, ThemeProvider} from '@material-ui/core/styles';
+import {createMuiTheme, makeStyles, responsiveFontSizes } from '@material-ui/core/styles';
 
+let theme = createMuiTheme();
+theme = responsiveFontSizes(theme);
 
-const theme = createMuiTheme({
- 
-  });
-  
-  const useStyles = makeStyles(theme => ({
-    root: {
-      flexGrow: 1,
-    },
+  let useStyles = makeStyles(theme => ({
 
   }));
 
 export const history = createHistory();
 
-
 export default function App() {
-    const classes = useStyles();
-    return (
+  const classes = useStyles();
   
-      <ThemeProvider theme={theme}>
-        <div className={classes.root} >
-          <Grid container >
+  return (
 
-            <Router history={history}>
-              <Route exact path="/" component={MainPage}/>
-              <Route exact path="/secondpage" component={SecondPage}/>
-            </Router>
- 
-          </Grid>
-        </div>
-      </ThemeProvider>
-    );
-  }
+    <div className={classes.root} >
 
+        <Router history={history}>
+          <Route exact path="/" component={MainPage}/>
+          <Route exact path="/secondpage" component={SecondPage}/>
+        </Router>
 
-
-
-/*
-class App extends React.Component {
-    
-    render() {
-
-        return (
-
-           <AppRouter />
-
-        );
-    }
-}
+    </div>
    
-export default withStyles(MainPageStyles)(App);
-*/
+  );
+}
+

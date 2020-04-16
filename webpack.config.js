@@ -6,11 +6,15 @@ module.exports = {
    output: {
       path: path.resolve( __dirname, 'dist' ),
       filename: 'main.js',
-      publicPath: '/',
+      publicPath: '/'
    },
    devServer: {
       historyApiFallback: true
    },
+   watchOptions: {
+      aggregateTimeout: 300,
+      poll: 1000
+  },
    module: {
       rules: [
          {
