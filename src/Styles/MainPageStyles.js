@@ -6,6 +6,9 @@ export default (theme) => ({
   },
   divider: {
     width: '1000px',
+    ['@media (max-width:430px)']: {
+      width: '280px',
+    },
   },
   dividerBox: {
     display: 'flex',
@@ -29,7 +32,7 @@ export default (theme) => ({
     position: 'relative',
   },
   mainContainer: {
-      backgroundColor: '#eaeaea',
+      backgroundColor: '#ebebeb',
       height: '1050px',
   },
   mainHeading: {
@@ -45,10 +48,11 @@ export default (theme) => ({
       paddingTop: '45px',
     ['@media (max-width:430px)']: {
       fontSize: '38px',
+      marginLeft: '12px',
     }
   },
   mainTextContainerLeft: {
-    backgroundColor: '#eaeaea',
+    backgroundColor: '#ebebeb',
     float: 'left',
     height: '950px',
     marginTop: '12px',
@@ -59,7 +63,7 @@ export default (theme) => ({
   },
   mainTextContainerRight: {
     float: 'right',
-    backgroundColor: '#eaeaea',
+    backgroundColor: '#ebebeb',
     height: '950px',
     marginTop: '12px',
     width: '35%',
