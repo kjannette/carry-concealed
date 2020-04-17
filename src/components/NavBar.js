@@ -1,4 +1,5 @@
 import React from 'react';
+import { Switch, Link } from 'react-router-dom';
 import { withStyles, Button } from '@material-ui/core';
 import NavBarStyles from '../Styles/NavBarStyles.js';
 import '../Styles/MuiOverrides.css'
@@ -23,9 +24,17 @@ class NavBar extends React.Component {
                 </div>
 
                 <div className={classes.navContainerButtons}>
-                    <Button variant="outlined" href="#home">Home </Button>
-                    <Button variant="outlined" href="#news">News </Button>
-                    <Button variant="outlined" href="#contact">Contact </Button>
+
+                    <Link to={"/"}>
+                        <Button variant="outlined">Home</Button>
+                    </Link>
+                    <Link to={"/secondpage"}>
+                        <Button variant="outlined">News</Button>
+                    </Link>
+                    <Link>
+                        <Button variant="outlined">Contact </Button>
+                    </Link>
+
                 </div>
 
 

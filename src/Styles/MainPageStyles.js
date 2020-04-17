@@ -45,7 +45,6 @@ export default (theme) => ({
       paddingTop: '45px',
     ['@media (max-width:430px)']: {
       fontSize: '38px',
-      color: 'blue',
     }
   },
   mainTextContainerLeft: {
@@ -76,6 +75,9 @@ export default (theme) => ({
       fontWeight: '100',
       letterSpacing: '-3.0px',
       marginTop: '7px',
+      ['@media (max-width:430px)']: {
+        display: 'none',
+      }
   },
     textLeft: {
       fontWeight: '300',
