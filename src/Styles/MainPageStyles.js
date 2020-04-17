@@ -53,6 +53,9 @@ export default (theme) => ({
     height: '950px',
     marginTop: '12px',
     width: '65%',
+    ['@media (max-width:430px)']: {
+      width: '100%',
+    },
   },
   mainTextContainerRight: {
     float: 'right',
@@ -60,6 +63,9 @@ export default (theme) => ({
     height: '950px',
     marginTop: '12px',
     width: '35%',
+    ['@media (max-width:430px)']: {
+      display: 'none',
+    }
   },
   mainTextLeft: {
     marginLeft: '25px',

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { withStyles, Button } from '@material-ui/core';
 import NavBarStyles from '../Styles/NavBarStyles.js';
 import '../Styles/MuiOverrides.css'

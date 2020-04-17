@@ -10,7 +10,7 @@ export default (theme) => ({
     },
     menuContainer: {
         ['@media (min-width:430px)']: {
-            visibility: 'hidden',
+            display: 'none',
         },
     },
     navBarText: {
@@ -24,7 +24,7 @@ export default (theme) => ({
         top: '-10px',
         width: '270px',
         ['@media (max-width:430px)']: {
-            visibility: 'hidden',
+            display: 'none',
           },
       },
         navContainer: {
@@ -46,7 +46,7 @@ export default (theme) => ({
           display: 'inline-block',
           textAlign: 'right',
           ['@media (max-width:430px)']: {
-            visibility: 'hidden',
+            display: 'none',
           },
         },
         navContainerLogo: {
