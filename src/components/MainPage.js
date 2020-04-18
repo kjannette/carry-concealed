@@ -1,5 +1,5 @@
 import React from 'react';
-import { withStyles, Button, Divider, Typography } from '@material-ui/core';
+import { withStyles, Divider, Typography } from '@material-ui/core';
 import MainPageStyles from '../Styles/MainPageStyles';
 import NavBar from './NavBar.js'
 
@@ -55,7 +55,9 @@ class MainPage extends React.Component {
 
                                     <p><b>May-issue</b> jurisdictions require a permit to carry a concealed handgun, and where the granting of such permits is partially at the discretion of local authorities (frequently the sheriff's department or police).</p>
                                     
-                                    <p><b>No-issue</b> jurisdictions do not allow anyone, other than governmental authorities to carry a concealed handgun in public.  There are very few exceptions to this rule in no-issue jurisdiction.</p> 
+                                    <p><b>No-issue</b> jurisdictions do not allow anyone, other than governmental authorities to carry a concealed handgun in public.  There are very few exceptions to this rule in no-issue jurisdiction.</p>
+
+                                    <p>An important difference to note is the distinction between carrying a concealed weapon and “open carry.”  Carrying a gun that is cannot be seen by others is governed by different laws that those that control carrying a weapon that is openly visible.</p>
                                     
                                 </Typography>
 

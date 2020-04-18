@@ -1,5 +1,6 @@
 import React from 'react';
 import MainPage from './components/MainPage.js'
+import OpenCarryPage from './components/OpenCarryPage.js'
 import SecondPage from './components/SecondPage.js'
 import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
@@ -26,6 +27,7 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={MainPage}/>
           <Route exact path="/secondpage" component={SecondPage}/>
+          <Route exact path="/opencarry" component={OpenCarryPage}/>
         </Switch>
       </Router>
 
