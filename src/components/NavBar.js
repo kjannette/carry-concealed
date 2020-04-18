@@ -7,69 +7,63 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import glock from '../images/glock.png'
 
-class NavBar extends React.Component {
+const NavBar = props => {
 
-    state = {
-        anchorEl: null,
-        setAnchorEl: null,
-    }
+    const { classes } = props
 
-    handleClick = (event) => {
-        setAnchorEl(event.currentTarget);
-      };
-    
-      handleClose = () => {
-        setAnchorEl(null);
-      };
+    const [anchorEl, setAnchorEl] = React.useState(null);
 
-    render() {
+    const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+    };
+  
+    const handleClose = () => {
+      setAnchorEl(null);
+    };
 
-        const { classes } = this.props;
+    return (
 
-        return (
+        <div className={classes.navContainer}>
 
-            <div className={classes.navContainer}>
+        <div className={classes.navContainerLogo}>
+            <img className={classes.logo} src={glock}></img>
+            <p className={classes.navBarText}>Concealed Weapons Permits: your guide</p>
+        </div>
 
-                <div className={classes.navContainerLogo}>
-                    <img className={classes.logo} src={glock}></img>
-                    <p className={classes.navBarText}>Concealed Weapons Permits: your guide</p>
-                </div>
+        <div className={classes.navContainerButtons}>
 
-                <div className={classes.navContainerButtons}>
+            <Link to={"/"}>
+                <Button variant="outlined">Home</Button>
+            </Link>
+            <Link to={"/secondpage"}>
+                <Button variant="outlined">News</Button>
+            </Link>
+            <Link>
+                <Button variant="outlined">Contact </Button>
+            </Link>
 
-                    <Link to={"/"}>
-                        <Button variant="outlined">Home</Button>
-                    </Link>
-                    <Link to={"/secondpage"}>
-                        <Button variant="outlined">News</Button>
-                    </Link>
-                    <Link>
-                        <Button variant="outlined">Contact </Button>
-                    </Link>
+        </div>
 
-                </div>
+        <div className={classes.navContainerMenu}>
+            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+                <MenuIcon style={{ fontSize: 50 }} className={classes.burger}/>
+            </Button>
+            <Menu
+                id="simple-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+            >
+                <MenuItem onClick={handleClose}>Home</MenuItem>
+                <MenuItem onClick={handleClose}>News</MenuItem>
+                <MenuItem onClick={handleClose}>Contact</MenuItem>
+            </Menu>
+        </div>
 
-                <div className={classes.navContainerMenu}>
-                    <Button aria-controls="simple-menu" aria-haspopup="true" onClick={this.handleClick}>
-                        <MenuIcon style={{ fontSize: 50 }} className={classes.burger}/>
-                    </Button>
-                    <Menu
-                        id="simple-menu"
-                        anchorEl={this.state.anchorEl}
-                        keepMounted
-                        open={Boolean(this.state.anchorEl)}
-                        onClose={this.handleClose}
-                    >
-                        <MenuItem onClick={this.handleClose}>Profile</MenuItem>
-                        <MenuItem onClick={this.handleClose}>My account</MenuItem>
-                        <MenuItem onClick={this.handleClose}>Logout</MenuItem>
-                    </Menu>
-                </div>
+    </div>
 
-            </div>
-
-        )
-    }
+    )
 }
 
 export default withStyles(NavBarStyles)(NavBar);

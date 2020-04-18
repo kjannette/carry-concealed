@@ -1,6 +1,5 @@
 export default (theme) => ({
   burger: {
-    color: 'red',
     '& .MuiButtonBase-root.MuiButton-root': {
       marginTop: '8px',
     },
