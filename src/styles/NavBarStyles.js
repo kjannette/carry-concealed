@@ -1,6 +1,9 @@
 export default (theme) => ({
   burger: {
-    textAlign: 'right'
+    color: 'red',
+    '& .MuiButtonBase-root.MuiButton-root': {
+      marginTop: '8px',
+    },
   },
   logo: {
       height: '50px',
@@ -48,12 +51,20 @@ export default (theme) => ({
     width: '50%',
     display: 'inline-block',
     textAlign: 'right',
+    ' & .MuiButtonBase-root.MuiButton-root': {
+      marginRight: '45px',
+      marginTop: '14px',
+    },
     ['@media (max-width:430px)']: {
       display: 'none',
     },
   },
   navContainerMenu: {
     width: '50%',
+    ' & .MuiButtonBase-root.MuiButton-root': {
+      marginTop: '5px',
+      float: 'right',
+    },
     ['@media (min-width:430px)']: {
       display: 'none',
     },

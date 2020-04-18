@@ -1,9 +1,7 @@
 import React from 'react';
 import { withStyles, Button, Divider, Typography } from '@material-ui/core';
 import SecondPageStyles from '../Styles/SecondPageStyles';
-import '../Styles/MuiOverrides.css'
 import NavBar from './NavBar.js'
-import glock from '../images/glock.png'
 
 class SecondPage extends React.Component {
 
@@ -27,5 +25,5 @@ class SecondPage extends React.Component {
         );
     }
 }
-   
+
 export default withStyles(SecondPageStyles)(SecondPage);

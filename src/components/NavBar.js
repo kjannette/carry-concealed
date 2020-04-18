@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { withStyles, Button,  } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import NavBarStyles from '../Styles/NavBarStyles.js';
-import '../Styles/MuiOverrides.css'
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import glock from '../images/glock.png'

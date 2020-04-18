@@ -1,7 +1,6 @@
 import React from 'react';
 import { withStyles, Button, Divider, Typography } from '@material-ui/core';
 import MainPageStyles from '../Styles/MainPageStyles';
-import '../Styles/MuiOverrides.css'
 import NavBar from './NavBar.js'
 
 class MainPage extends React.Component {
