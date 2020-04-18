@@ -14,13 +14,22 @@ class SecondPage extends React.Component {
         const { classes } = this.props;
 
         return (
+
             <>
                 <NavBar />
 
-                <div className={classes.mainContainer}>
-                    <p>SECOND PAGE</p>
-                </div>
+                <div className={classes.mainContainer}> 
+                    <div className={classes.mainHeading}>
+                        Concealed Weapons Permits
+                    </div>
+                    <div className={classes.subHeading}>
+                        Your source for information about carrying a concealed weapon
+                    </div>
 
+                    <div className={classes.dividerBox}>
+                        <Divider  className={classes.divider}/>
+                    </div>
+                </div>
             </>
         );
     }
