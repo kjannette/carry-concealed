@@ -31,6 +31,9 @@ export default (theme) => ({
     marginTop: '-8px',
     position: 'relative',
   },
+  link: {
+    textDecoration: 'none',
+  },
   mainContainer: {
       backgroundColor: '#ebebeb',
       height: '1050px',
@@ -76,7 +79,6 @@ export default (theme) => ({
     marginLeft: '25px',
     marginRight: '25px',
   },
-
   subHeading: {
     color: '#333',
     display: 'flex',
@@ -84,13 +86,13 @@ export default (theme) => ({
     fontFamily: 'Roboto',
     fontSize: '40px',
     fontWeight: '100',
-    letterSpacing: '-3.0px',
+    letterSpacing: '-0.8px',
     marginTop: '7px',
     ['@media (max-width:430px)']: {
       display: 'none',
     }
+},
+  textLeft: {
+    fontWeight: '300',
   },
-    textLeft: {
-      fontWeight: '300',
-    },
 })

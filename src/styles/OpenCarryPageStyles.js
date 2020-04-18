@@ -79,12 +79,16 @@ export default (theme) => ({
         fontFamily: 'Roboto',
         fontSize: '40px',
         fontWeight: '100',
-        letterSpacing: '-3.0px',
+        letterSpacing: '-0.8px',
         marginTop: '7px',
         ['@media (max-width:430px)']: {
           display: 'none',
         }
       },
+    textLeft: {
+        fontWeight: '300',
+    },
 })
+
 
 
