@@ -55,8 +55,8 @@ const NavBar = props => {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
             >
-                <MenuItem onClick={handleClose}>Home</MenuItem>
-                <MenuItem onClick={handleClose}>News</MenuItem>
+                <MenuItem onClick={handleClose} component={Link} to="/">Home</MenuItem>
+                <MenuItem onClick={handleClose} component={Link} to="/secondpage">Second Page</MenuItem>
                 <MenuItem onClick={handleClose}>Contact</MenuItem>
             </Menu>
         </div>
