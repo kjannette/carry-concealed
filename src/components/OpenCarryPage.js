@@ -46,7 +46,7 @@ class OpenCarryPage extends React.Component {
 
                                 <p>New York and South Carolina prohibit openly carrying handguns, but not long guns.  On the other hand, Massachusetts, Minnesota, and New Jersey prohibit openly carrying long guns, but not handguns.</p>
 
-                                <p>So-called open carry laws are usually subject to exceptions, which can be substantial. For exmaple, most states that allow open carrying still prohibit carrying weapons openly in specific locations such as schools, state-owned businesses, places where alcohol is served, and public transportation facilites and vehicles are usually on that list.</p>
+                                <p>So-called open carry laws are usually subject to exceptions, which can be substantial. For exmaple, most states that allow open carrying still prohibit carrying weapons openly in specific locations such as schools, state-owned businesses, extablishments that serve alcohol, and public transportation facilites and vehicles are usually on that list.</p>
                                 
                             </Typography>
 

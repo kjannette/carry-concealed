@@ -1,4 +1,6 @@
 import React from 'react';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import MainPage from './components/MainPage.js'
 import OpenCarryPage from './components/OpenCarryPage.js'
 import SecondPage from './components/SecondPage.js'
@@ -13,6 +15,16 @@ theme = responsiveFontSizes(theme);
 
   }));
 
+  export function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
+
   export const history = createHistory();
 
 export default function App() {
@@ -24,10 +36,11 @@ export default function App() {
     <div className={classes.root} >
 
       <Router history={history}>
+        <ScrollToTop />
         <Switch>
-          <Route exact path="/" component={MainPage}/>
-          <Route exact path="/secondpage" component={SecondPage}/>
-          <Route exact path="/opencarry" component={OpenCarryPage}/>
+            <Route exact path="/" component={MainPage}/>
+            <Route exact path="/secondpage" component={SecondPage}/>
+            <Route exact path="/opencarry" component={OpenCarryPage}/>
         </Switch>
       </Router>
 
