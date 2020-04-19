@@ -1,7 +1,10 @@
 import React from 'react';
 import MainPage from '../components/MainPage.js'
 import OpenCarryPage from '../components/OpenCarryPage.js'
-import SecondPage from '../components/SecondPage.js'
+import ShallIssuePage from '../components/ShallIssuePage.js'
+import UnrestrictedPage from '../components/UnrestrictedPage.js'
+import MayIssuePage from '../components/MayIssuePage.js'
+import NoIssuePage from '../components/NoIssuePage.js'
 import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import { withStyles } from '@material-ui/core/styles';
@@ -18,8 +21,11 @@ class AppRouter extends React.Component {
             <Router history={history}>
             <Switch>
                 <Route exact path="/" component={MainPage}/>
-                <Route exact path="/secondpage" component={SecondPage}/>
                 <Route exact path="/opencarry" component={OpenCarryPage}/>
+                <Route exact path="/shallissue" component={ShallIssuePage}/>
+                <Route exact path="/unrestricted" component={UnrestrictedPage}/>
+                <Route exact path="/mayissue" component={MayIssuePage}/>
+                <Route exact path="/noissue" component={NoIssuePage}/>
             </Switch>
           </Router>
         )

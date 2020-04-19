@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { withStyles, Divider, Typography } from '@material-ui/core';
-import ShallIssuePageStyles from '../Styles/MainPageStyles';
+import UnrestrictedPageStyles from '../Styles/UnrestrictedPageStyles';
 import NavBar from './NavBar.js'
 
-class ShallIssuePage extends React.Component {
+class UnrestrictedPage extends React.Component {
 
     UNSAFE_componentWillMount(){
         document.getElementById('body').style.margin = "0px"
@@ -21,11 +21,11 @@ class ShallIssuePage extends React.Component {
                 <div className={classes.mainContainer}> 
 
                     <div className={classes.mainHeading}>
-                            Concealed Weapons Permits
+                        Concealed Weapons Permits
                     </div>
 
                     <div className={classes.subHeading}>
-                        Shall Issue jurisdictions 
+                        Unrestricted jurisdictions 
                     </div>
 
                     <div className={classes.dividerBox}>
@@ -68,4 +68,4 @@ class ShallIssuePage extends React.Component {
     }
 }
    
-export default withStyles(ShallIssuePageStyles)(ShallIssuePage);
+export default withStyles(UnrestrictedPageStyles)(UnrestrictedPage);
