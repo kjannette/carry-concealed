@@ -16,9 +16,7 @@ export default function App() {
   return (
 
     <div className={classes.root} >
-      
       <AppRouter />
-
     </div>
    
   );
