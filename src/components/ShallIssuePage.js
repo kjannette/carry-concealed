@@ -21,7 +21,7 @@ class ShallIssuePage extends React.Component {
                 <div className={classes.mainContainer}> 
 
                     <div className={classes.mainHeading}>
-                            Concealed Weapons Permits
+                        Concealed Weapons Permits
                     </div>
 
                     <div className={classes.subHeading}>

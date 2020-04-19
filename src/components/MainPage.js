@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { withStyles, Divider, Typography } from '@material-ui/core';
 import MainPageStyles from '../Styles/MainPageStyles';
 import NavBar from './NavBar.js'
+import range from '../images/range.jpg'
 
 class MainPage extends React.Component {
 
@@ -67,6 +68,13 @@ class MainPage extends React.Component {
                         </div>
 
                         <div className={classes.mainTextContainerRight}>
+
+                            <div className={classes.mainTextRight}>
+                                <img src={range} className={classes.range}></img>
+                                <Typography className={classes.rangeText}>
+                                    <p>Knowing your state's laws regarding carrying a concealed weapon is the first step to legal carry.</p>
+                                </Typography>
+                            </div>
 
                         </div>
 
