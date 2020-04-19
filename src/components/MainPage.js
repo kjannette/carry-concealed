@@ -49,16 +49,16 @@ class MainPage extends React.Component {
 
                                     <p>State laws regulating the ability to carry a concealed weapon generally fall into four categories:  <b>unrestriced</b>, so-called <b>“shall issue,”</b>  <b>“may issue”</b> an <b>“no issue”</b> jurisdictions.</p>
 
-                                    <p><b>Unrestricted</b> jurisdictions are those where a permit is not required to carry a concealed handgun.</p>
+                                    <p><b>Unrestricted</b> jurisdictions are those where <Link to="/unrestricted" className={classes.link}>a permit is not required </Link>to carry a concealed handgun.</p>
                                     
-                                    <p> <b>Shall-issue</b> jurisdictions are states that require a license to carry a concealed handgun, but where the granting of such licenses is subject only to meeting specific criteria set forth in the law.  In other words, the state authority 
+                                    <p> <b>Shall-issue</b> jurisdictions are states that <Link to="/shallissue" className={classes.link}>require a license to carry </Link>a concealed handgun, but where the granting of such licenses is subject only to meeting specific criteria set forth in the law.  In other words, the state authority 
                                         that reviews the applications has no discretion in the awarding of the licenses.  In shall-issue jurisdictions, there is no requirement to demonstrate "good cause"</p>
 
-                                    <p><b>May-issue</b> jurisdictions require a permit to carry a concealed handgun, and where the granting of such permits is partially at the discretion of local authorities (frequently the sheriff's department or police).</p>
+                                    <p><b>May-issue</b> jurisdictions require a permit to carry a concealed handgun, and where granting of  permits <Link to="/shallissue" className={classes.link}>is partially at the discretion of local authorities </Link>(frequently the sheriff's department or police).</p>
                                     
-                                    <p><b>No-issue</b> jurisdictions do not allow anyone, other than governmental authorities to carry a concealed handgun in public.  There are very few exceptions to this rule in no-issue jurisdiction.</p>
+                                    <p><b>No-issue</b> jurisdictions <Link to="/shallissue" className={classes.link}>do not allow anyone to carry a concealed weapon </Link>in public, other than governmental authorities.  There are very few exceptions to this rule in no-issue jurisdiction.</p>
 
-                                    <p>An important difference to note is the distinction between carrying a concealed weapon and <Link to="/opencarry" className={classes.link}>“open carry.”</Link>  <Link to="/opencarry" className={classes.link}>Carrying a gun that is openly visible </Link>is governed by different laws than those that control carrying a concealed weapon .</p>
+                                    <p>An important difference to note is the distinction between carrying a concealed weapon and <b>“open carry.”</b>  <Link to="/opencarry" className={classes.link}>Legally carrying a gun that is openly visible </Link>is governed by different laws than those that control carrying a concealed weapon .</p>
                                     
                                 </Typography>
 
@@ -73,8 +73,9 @@ class MainPage extends React.Component {
                         <div className={classes.footer}>
 
                         <Typography className={classes.footerText}>
-                            <p>All content Copyright 2020 concealedweaponspermits.net<br></br>
-                                This website is for informational puposes only.  The materials contained herein are not intended to, and do not, constitute legal advice.</p>
+                            <p> All content Copyright 2020 concealedweaponspermits.net<br></br>
+                                This website is for informational puposes only.  The materials contained herein are not intended to, and do not, constitute legal advice.
+                                <br></br>Individuals should verify local laws and regulations, and seek professional counsel.</p>
                         </Typography>
 
                         </div>

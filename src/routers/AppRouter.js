@@ -28,6 +28,7 @@ class AppRouter extends React.Component {
                 <Route exact path="/noissue" component={NoIssuePage}/>
             </Switch>
           </Router>
+          
         )
       }
 }

@@ -33,6 +33,7 @@ export default (theme) => ({
   },
   link: {
     textDecoration: 'none',
+    color: 'blue',
   },
   mainContainer: {
       backgroundColor: '#ebebeb',

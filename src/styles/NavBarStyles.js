@@ -7,12 +7,23 @@ export default (theme) => ({
   logo: {
       height: '50px',
       marginLeft: '45px',
-      marginTop: '12px',
+      marginTop: '10px',
+      float: 'left',
       ['@media (max-width:430px)']: {
           height: '44px',
           marginLeft: '30px',
       },
   },
+  logo2: {
+    height: '50px',
+    marginTop: '10px',
+    float: 'right',
+    ['@media (max-width:430px)']: {
+        height: '44px',
+        marginLeft: '30px',
+        marginTop: '13px',
+    },
+},
   menuContainer: {
       ['@media (min-width:430px)']: {
           display: 'none',
@@ -26,7 +37,8 @@ export default (theme) => ({
       fontStyle: 'italic',
       paddingLeft: '12px',
       position: 'relative',
-      top: '-10px',
+      float: 'none',
+      top: '-11px',
       width: '270px',
       ['@media (max-width:430px)']: {
           display: 'none',
@@ -67,12 +79,18 @@ export default (theme) => ({
     ['@media (min-width:430px)']: {
       display: 'none',
     },
+    ['@media (max-width:430px)']: {
+      width: '37%',
+    },
   },
   navContainerLogo: {
       float: 'left',
       width: '50%',
       display: 'inline-block',
-      textAlign: 'left',
+      //textAlign: 'left',
+      ['@media (max-width:430px)']: {
+        width: '63%',
+      },
     },
 })
 
