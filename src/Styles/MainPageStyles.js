@@ -110,6 +110,7 @@ export default (theme) => ({
     paddingRight: '20px',
     fontWeight: '100',
     fontSize: '13px',
-    marginTop: '6px',
+    marginTop: '2px',
+    lineHeight: '20px',
   }
 })
