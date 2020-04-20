@@ -53,7 +53,7 @@ export default (theme) => ({
         marginTop: '12px',
         width: '65%',
         ['@media (max-width:430px)']: {
-          height: '1500px',
+          height: '2050px',
           width: '100%',
         },
       },

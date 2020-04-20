@@ -53,7 +53,7 @@ export default (theme) => ({
         marginTop: '12px',
         width: '65%',
         ['@media (max-width:430px)']: {
-          height: '1500px',
+          height: '2200px',
           width: '100%',
         },
       },
@@ -65,7 +65,7 @@ export default (theme) => ({
         width: '35%',
         ['@media (max-width:430px)']: {
           display: 'none',
-        }
+        },
       },
       mainTextLeft: {
         marginLeft: '25px',

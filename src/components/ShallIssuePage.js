@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { withStyles, Divider, Typography } from '@material-ui/core';
-import ShallIssuePageStyles from '../Styles/MainPageStyles';
+import ShallIssuePageStyles from '../Styles/ShallIssuePageStyles';
 import NavBar from './NavBar.js'
 
 class ShallIssuePage extends React.Component {
