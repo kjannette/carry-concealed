@@ -37,8 +37,8 @@ const NavBar = props => {
             <Link to={"/"}>
                 <Button variant="outlined">Home</Button>
             </Link>
-            <Link to={"/secondpage"}>
-                <Button variant="outlined">News</Button>
+            <Link>
+                <Button variant="outlined">CWP By State</Button>
             </Link>
             <Link>
                 <Button variant="outlined">Contact </Button>

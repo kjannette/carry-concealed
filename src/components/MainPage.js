@@ -37,7 +37,7 @@ class MainPage extends React.Component {
 
                                 <Typography className={classes.textLeft}>
 
-                                    <p><b>Welcome to your best starting point for information about concealed weapons permits online. </b></p>
+                                    <p> <b>Welcome to your best starting point for information about concealed weapons permits online. </b></p>
 
                                     <p>The regulations regarding carrying a concealed weapon and concealed weapons permits  are generally govermened by state law, not federal gun laws (with some exceptions).  Therefore, the rights and obligations about carrying a concealed weapon 
                                         and concealed weapons permtis  vary from state to state.</p>
@@ -46,18 +46,19 @@ class MainPage extends React.Component {
                                         though some states have passed concealed carry permit laws, they refuse to issue permits or they make it extremely hard to get one.  Finally, some states recognize “reciprocity” with other states.  This means that if you have conealed weapons 
                                         permit in one state, the other state witll honor it, wihtout the need to file for another permit in that state.</p>
 
-                                    <p><b>Types of State Concealed Weapons Permit Laws</b></p>
+                                    <p> <b>Types of State Concealed Weapons Permit Laws</b></p>
 
                                     <p>State laws regulating the ability to carry a concealed weapon generally fall into four categories:  <b>unrestriced</b>, so-called <b>“shall issue,”</b>  <b>“may issue”</b> an <b>“no issue”</b> jurisdictions.</p>
 
-                                    <p><b>Unrestricted</b> jurisdictions are those where <Link to="/unrestricted" className={classes.link}>a permit is not required </Link>to carry a concealed handgun.</p>
+                                    <p> <b>Unrestricted</b> jurisdictions are those where <Link to="/unrestricted" className={classes.link}>a permit is not required </Link>to carry a concealed handgun.</p>
                                     
                                     <p> <b>Shall-issue</b> jurisdictions are states that <Link to="/shallissue" className={classes.link}>require a license to carry </Link>a concealed handgun, but where the granting of such licenses is subject only to meeting specific criteria set forth in the law.  In other words, the state authority 
                                         that reviews the applications has no discretion in the awarding of the licenses.  In shall-issue jurisdictions, there is no requirement to demonstrate "good cause"</p>
 
-                                    <p><b>May-issue</b> jurisdictions require a permit to carry a concealed handgun, and where granting of  permits <Link to="/shallissue" className={classes.link}>is partially at the discretion of local authorities </Link>(frequently the sheriff's department or police).</p>
+                                    <p><b>May-issue</b> jurisdictions require a permit to carry a concealed handgun.  Granting of permits <Link to="/mayissue" className={classes.link}>is partially at the discretion of local authorities </Link>(frequently the sheriff's department or police), and may require some showing of good cause or necessity.</p>
                                     
-                                    <p><b>No-issue</b> jurisdictions <Link to="/shallissue" className={classes.link}>do not allow anyone to carry a concealed weapon </Link>in public, other than governmental authorities.  There are very few exceptions to this rule in no-issue jurisdiction.</p>
+                                    <p> <b>No-issue</b> jurisdictions <Link to="/noissue" className={classes.link}>do not allow anyone to carry a concealed weapon </Link>in public, other than governmental authorities.  There are very few exceptions to this rule in no-issue jurisdiction.  While there are technically no longer any no issue jurisdictions,
+                                        in some locales it is so difficult to obtain a permit that, in practice, they are no issue</p>
 
                                     <p>An important difference to note is the distinction between carrying a concealed weapon and <b>“open carry.”</b>  <Link to="/opencarry" className={classes.link}>Legally carrying a gun that is openly visible </Link>is governed by different laws than those that control carrying a concealed weapon .</p>
                                     
