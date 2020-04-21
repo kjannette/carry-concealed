@@ -72,7 +72,6 @@ export default (theme) => ({
         marginRight: '25px',
       },
       mainTextRight: {
-        //backgroundColor: 'blue',
         height: '100%',
       },
     subHeading: {
