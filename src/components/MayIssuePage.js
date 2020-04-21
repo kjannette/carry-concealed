@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { withStyles, Divider, Typography } from '@material-ui/core';
 import MayIssuePageStyles from '../Styles/MayIssuePageStyles';
 import NavBar from './NavBar.js'
+import mayissue from '../images/mayissue.jpg'
 
 class MayIssuePage extends React.Component {
 
@@ -61,6 +62,13 @@ class MayIssuePage extends React.Component {
                     </div>
 
                     <div className={classes.mainTextContainerRight}>
+
+                        <div className={classes.mainTextRight}>
+                            <img src={mayissue} className={classes.range}></img>
+                            <Typography className={classes.rangeText}>
+                                Local authroities have more  discretion as to whether copncealed weapons permits are granted in "may issue" states than in "shall issue" states.
+                            </Typography>
+                        </div>
 
                     </div>
 

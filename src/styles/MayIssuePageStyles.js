@@ -87,4 +87,22 @@ export default (theme) => ({
     textLeft: {
         fontWeight: '300',
       },
+    mainTextRight: {
+      //backgroundColor: 'blue',
+      height: '100%',
+    },
+    range: {
+      width: '90%',
+      paddingRight: '20px',
+      paddingTop: '30px',
+      marginTop: '16px',
+    },
+    rangeText: {
+      width: '90%',
+      paddingRight: '20px',
+      fontWeight: '100',
+      fontSize: '13px',
+      marginTop: '2px',
+      lineHeight: '20px',
+    }
 })

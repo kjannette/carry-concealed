@@ -71,6 +71,10 @@ export default (theme) => ({
         marginLeft: '25px',
         marginRight: '25px',
       },
+      mainTextRight: {
+        //backgroundColor: 'blue',
+        height: '100%',
+      },
     subHeading: {
         color: '#333',
         display: 'flex',
@@ -87,4 +91,17 @@ export default (theme) => ({
     textLeft: {
         fontWeight: '300',
       },
+    pic: {
+      width: '90%',
+      paddingRight: '20px',
+      paddingTop: '30px',
+    },
+    rangeText: {
+      width: '90%',
+      paddingRight: '20px',
+      fontWeight: '100',
+      fontSize: '13px',
+      marginTop: '2px',
+      lineHeight: '20px',
+    }
 })

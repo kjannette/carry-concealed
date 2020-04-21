@@ -9,28 +9,30 @@ import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import { withStyles } from '@material-ui/core/styles';
 import { MainPageStyles } from '../styles/MainPageStyles.js';
+import ScrollToTop from '../utils/ScrollToTop.js'
 
 export const history = createHistory();
 
 class AppRouter extends React.Component {
 
-      render() {
+  render() {
 
-        return (
-            
-            <Router history={history}>
-            <Switch>
-                <Route exact path="/" component={MainPage}/>
-                <Route exact path="/opencarry" component={OpenCarryPage}/>
-                <Route exact path="/shallissue" component={ShallIssuePage}/>
-                <Route exact path="/unrestricted" component={UnrestrictedPage}/>
-                <Route exact path="/mayissue" component={MayIssuePage}/>
-                <Route exact path="/noissue" component={NoIssuePage}/>
-            </Switch>
-          </Router>
-          
-        )
-      }
+    return (
+        
+        <Router history={history}>
+        <ScrollToTop />
+        <Switch>
+            <Route exact path="/" component={MainPage}/>
+            <Route exact path="/opencarry" component={OpenCarryPage}/>
+            <Route exact path="/shallissue" component={ShallIssuePage}/>
+            <Route exact path="/unrestricted" component={UnrestrictedPage}/>
+            <Route exact path="/mayissue" component={MayIssuePage}/>
+            <Route exact path="/noissue" component={NoIssuePage}/>
+        </Switch>
+      </Router>
+      
+    )
+  }
 }
 
 export default withStyles(MainPageStyles)(AppRouter);
