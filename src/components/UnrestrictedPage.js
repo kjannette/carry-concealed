@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { withStyles, Divider, Typography } from '@material-ui/core';
 import UnrestrictedPageStyles from '../Styles/UnrestrictedPageStyles';
 import NavBar from './NavBar.js'
+import colt from '../images/colt.jpg'
 
 class UnrestrictedPage extends React.Component {
 
@@ -61,6 +62,13 @@ class UnrestrictedPage extends React.Component {
                     </div>
 
                     <div className={classes.mainTextContainerRight}>
+
+                        <div className={classes.mainTextRight}>
+                            <img src={colt} className={classes.range}></img>
+                            <Typography className={classes.rangeText}>
+                                Unrestricted jurisdictions are states that do not require a permit to carry a concealed weapon.
+                            </Typography>
+                        </div>
 
                     </div>
 
