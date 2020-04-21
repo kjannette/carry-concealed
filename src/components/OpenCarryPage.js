@@ -2,6 +2,7 @@ import React from 'react';
 import { withStyles, Divider, Typography } from '@material-ui/core';
 import OpenCarryPageStyles from '../Styles/OpenCarryPageStyles';
 import NavBar from './NavBar.js'
+import rifle from '../images/rifle.jpg'
 
 class OpenCarryPage extends React.Component {
 
@@ -55,6 +56,14 @@ class OpenCarryPage extends React.Component {
                         </div>
 
                         <div className={classes.mainTextContainerRight}>
+
+                            <div className={classes.mainTextRight}>
+                                <img src={rifle} className={classes.range}></img>
+                                <Typography className={classes.rangeText}>
+                                   Many states do not restrict open carry, but some make distinctions between handguns and rifles.
+                                </Typography>
+                            </div>
+
 
                         </div>
 

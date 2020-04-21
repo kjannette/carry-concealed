@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { withStyles, Divider, Typography } from '@material-ui/core';
 import ShallIssuePageStyles from '../Styles/ShallIssuePageStyles';
 import NavBar from './NavBar.js'
-import range from '../images/range.jpg'
+import aim from '../images/aim.jpg'
 
 class ShallIssuePage extends React.Component {
 
@@ -66,7 +66,7 @@ class ShallIssuePage extends React.Component {
                     <div className={classes.mainTextContainerRight}>
 
                         <div className={classes.mainTextRight}>
-                            <img src={range} className={classes.range}></img>
+                            <img src={aim} className={classes.range}></img>
                                 <Typography className={classes.rangeText}>
                                    Shall issue jurisdictions, start from the presumption that an individual should be allowed to have a concealed weapons permit.
                                 </Typography>
