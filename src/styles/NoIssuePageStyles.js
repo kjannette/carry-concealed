@@ -26,6 +26,10 @@ export default (theme) => ({
         marginTop: '-8px',
         position: 'relative',
       },
+      link: {
+        textDecoration: 'none',
+        color: 'blue',
+      },
     mainContainer: {
         backgroundColor: '#ebebeb',
         height: '1050px',
@@ -72,8 +76,10 @@ export default (theme) => ({
         marginRight: '25px',
       },
       mainTextRight: {
-        //backgroundColor: 'blue',
-        height: '100%',
+        height: '490px',
+        width: '80%',
+        backgroundColor: '#e0e0e0',
+        borderRadius: '15px',
       },
     subHeading: {
         color: '#333',
@@ -94,11 +100,13 @@ export default (theme) => ({
     pic: {
       width: '90%',
       paddingRight: '20px',
+      paddingLeft: '20px',
       paddingTop: '30px',
     },
     rangeText: {
       width: '90%',
       paddingRight: '20px',
+      paddingLeft: '20px',
       fontWeight: '100',
       fontSize: '13px',
       marginTop: '2px',

@@ -41,7 +41,7 @@ class NoIssuePage extends React.Component {
 
                                 <p>A no issue jurisdiction is one that, with very limited exceptions, does not allow any private individual  to carry a concealed weapon in public.  Since July 2013, with the legalization of concealed carry in Illinois, there are no pure no issue states.  Only the territory of American Samoa completely prohibits concealed carry of a handgun.</p>
 
-                                <p>However, while Hawaii, Maryland, New Jersey, and certain cities and counties in California, Massachusetts, and New York are technically <Link to={"mayissue"}>may issue jurisdictions,</Link> they are no-issue jurisdictions in practice.  That is because glocal concealed weapons laws and regulations in those places are so restrictive that these locales rarely, if ever, issue concealed weapons permits.</p>
+                                <p>However, while Hawaii, Maryland, New Jersey, and certain cities and counties in California, Massachusetts, and New York are technically <Link to={"mayissue"} className={classes.link}>may issue jurisdictions,</Link> they are no-issue jurisdictions in practice.  That is because glocal concealed weapons laws and regulations in those places are so restrictive that these locales rarely, if ever, issue concealed weapons permits.</p>
 
                                 <p>Most no-issue jurisdictions do have exceptions.  For example, many permit concealed carry by active and retired law enforcement officials, armed security personnel while on duty and in uniform, and for members of the Armed Forces. 
                                     
@@ -68,7 +68,7 @@ class NoIssuePage extends React.Component {
                     <div className={classes.footer}>
 
                         <Typography className={classes.footerText}>
-                            <p> All content Copyright 2020 concealedweaponspermits.net<br></br>
+                            <p> All content Copyright © 2020 concealedweaponspermits.net<br></br>
                                 This website is for informational puposes only.  The materials contained herein are not intended to, and do not, constitute legal advice.
                                 <br></br>Individuals should verify local laws and regulations, and seek professional counsel.</p>
                         </Typography>

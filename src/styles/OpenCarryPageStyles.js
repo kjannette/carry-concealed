@@ -73,8 +73,11 @@ export default (theme) => ({
         marginRight: '25px',
       },
       mainTextRight: {
-        height: '100%',
-      },  
+        height: '420px',
+        width: '80%',
+        backgroundColor: '#e0e0e0',
+        borderRadius: '15px',
+      },
     subHeading: {
         color: '#333',
         display: 'flex',
@@ -94,11 +97,13 @@ export default (theme) => ({
     range: {
       width: '90%',
       paddingRight: '20px',
+      paddingLeft: '20px',
       paddingTop: '30px',
     },
     rangeText: {
       width: '90%',
       paddingRight: '20px',
+      paddingLeft: '20px',
       fontWeight: '100',
       fontSize: '13px',
       marginTop: '2px',

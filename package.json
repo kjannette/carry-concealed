@@ -1,10 +1,11 @@
 {
   "name": "carry-concealed",
-  "homepage": "http://concealedweaponspermits.net",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-dev-server": "webpack-dev-server",
     "dev": "webpack-dev-server --mode=development --watch-poll",
