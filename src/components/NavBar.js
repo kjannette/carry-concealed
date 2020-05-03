@@ -35,13 +35,13 @@ const NavBar = props => {
         <div className={classes.navContainerButtons}>
 
             <Link to={"/"}>
-                <Button variant="outlined">Home</Button>
+                <Button className={classes.buttonz} variant="outlined">Home</Button>
             </Link>
             <Link>
-                <Button variant="outlined">CWP By State</Button>
+                <Button className={classes.buttonz} variant="outlined">CWP By State</Button>
             </Link>
             <Link>
-                <Button variant="outlined">Contact </Button>
+                <Button className={classes.buttonz} variant="outlined">Contact </Button>
             </Link>
 
         </div>

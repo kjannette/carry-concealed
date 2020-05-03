@@ -4,6 +4,12 @@ export default (theme) => ({
       marginTop: '8px',
     },
   },
+  buttonz: {
+    textDecoration: 'none',
+    ' & .MuiButtonBase-root.MuiButton-root': {
+      textDecoration: 'none',
+    },
+  },
   logo: {
     height: '50px',
     marginLeft: '45px',
