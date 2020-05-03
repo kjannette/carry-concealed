@@ -5,10 +5,9 @@ import ShallIssuePage from '../components/ShallIssuePage.js'
 import UnrestrictedPage from '../components/UnrestrictedPage.js'
 import MayIssuePage from '../components/MayIssuePage.js'
 import NoIssuePage from '../components/NoIssuePage.js'
+import MapPage from '../components/MapPage.js'
 import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
-import { withStyles } from '@material-ui/core/styles';
-import { MainPageStyles } from '../styles/MainPageStyles.js';
 import ScrollToTop from '../utils/ScrollToTop.js'
 
 export const history = createHistory();
@@ -28,11 +27,12 @@ class AppRouter extends React.Component {
             <Route exact path="/unrestricted" component={UnrestrictedPage}/>
             <Route exact path="/mayissue" component={MayIssuePage}/>
             <Route exact path="/noissue" component={NoIssuePage}/>
+            <Route exact path="/map" component={MapPage}/>
         </Switch>
       </Router>
-      
+
     )
   }
 }
 
-export default withStyles(MainPageStyles)(AppRouter);
+export default AppRouter;

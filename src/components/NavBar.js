@@ -37,7 +37,7 @@ const NavBar = props => {
             <Link to={"/"}>
                 <Button className={classes.buttonz} variant="outlined">Home</Button>
             </Link>
-            <Link>
+            <Link to={"/map"}>
                 <Button className={classes.buttonz} variant="outlined">CWP By State</Button>
             </Link>
             <Link>
