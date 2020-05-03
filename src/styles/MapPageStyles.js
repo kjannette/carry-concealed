@@ -12,6 +12,7 @@ export default (theme) => ({
     },
     footer: {
       clear: 'both',
+      display: 'block',
       backgroundColor: '#fff',
       height: '75px',
     },
@@ -27,7 +28,7 @@ export default (theme) => ({
       position: 'relative',
     },
     lowerSubheading: {
-      color: '#333',
+      color: '#4d4d4d',
       display: 'flex',
       fontFamily: 'Roboto',
       fontSize: '30px',
@@ -36,11 +37,11 @@ export default (theme) => ({
       fontWeight: '100',
       height: '85px',
       letterSpacing: '-0.2px',
-      marginTop: '25px',
+      marginTop: '30px',
     },
     mainContainer: {
         backgroundColor: '#ebebeb',
-        height: '1050px',
+        height: '1000px',
     },
     mainHeading: {
         color: '#333',
@@ -60,6 +61,11 @@ export default (theme) => ({
     },
     mapBox: {
       justifyContent: 'center',
+      marginTop: '-15px',
+      marginBottom: '40px',
+    },
+    subContainer: {
+
     },
     subHeading: {
       color: '#333',

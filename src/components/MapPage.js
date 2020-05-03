@@ -20,6 +20,7 @@ class MapPage extends React.Component {
                 <NavBar />
 
                 <div className={classes.mainContainer}> 
+
                     <div className={classes.mainHeading}>
                         Concealed Weapons Permits
                     </div>
@@ -31,18 +32,20 @@ class MapPage extends React.Component {
                         <Divider  className={classes.divider}/>
                     </div>
 
-                <div className={classes.subContainer}>
+                    <div className={classes.subContainer}>
 
-                    <div className={classes.lowerSubheading}>
-                        Select Your State for Local Information
+                        <div className={classes.lowerSubheading}>
+                            Select Your State for Local Information
+                        </div>
+
+                        <div className={classes.mapBox}>
+
+                            <Map />
+                        
+                        </div>
+                        
                     </div>
 
-                    <div className={classes.mapBox}>
-
-                        <Map />
-                    
-                    </div>
-                    
                 </div>
 
                 <div className={classes.footer}>
@@ -52,8 +55,6 @@ class MapPage extends React.Component {
                             This website is for informational puposes only.  The materials contained herein are not intended to, and do not, constitute legal advice.
                             <br></br>Individuals should verify local laws and regulations, and seek professional counsel.</p>
                     </Typography>
-
-                </div>
 
                 </div>
             </>
