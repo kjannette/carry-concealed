@@ -6,6 +6,7 @@ import UnrestrictedPage from '../components/UnrestrictedPage.js'
 import MayIssuePage from '../components/MayIssuePage.js'
 import NoIssuePage from '../components/NoIssuePage.js'
 import MapPage from '../components/MapPage.js'
+import MichiganPage from '../components/states/MichiganPage.js'
 import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import ScrollToTop from '../utils/ScrollToTop.js'
@@ -28,6 +29,7 @@ class AppRouter extends React.Component {
             <Route exact path="/mayissue" component={MayIssuePage}/>
             <Route exact path="/noissue" component={NoIssuePage}/>
             <Route exact path="/map" component={MapPage}/>
+            <Route exact path="/michigan" component={MichiganPage}/>
         </Switch>
       </Router>
 

@@ -3,24 +3,33 @@ import { Link } from 'react-router-dom';
 import { withStyles, Divider, Typography } from '@material-ui/core';
 import USAMap from "react-usa-map";
 import MapStyles from '../styles/MapStyles.js'
+import SpecMapStyles from '../styles/SpecMapStyles.css'
 import NavBar from './NavBar.js'
+import { withRouter } from 'react-router'; 
 
 class Map extends React.Component {
 
   mapHandler = (event) => {
-    alert(event.target.dataset.name);
+    console.log(event.target.dataset.name);
+  };
+
+  statesCustomConfig = () => {
+    const { history } = this.props;
+    return {
+      "MI": {
+        clickHandler: (event) => history.push('/michigan')
+      },
+    };
   };
  
   render() {
 
-    const { classes } = this.props;
-
     return (
-      <div className={classes.mapContainer}>
-        <USAMap onClick={this.mapHandler} />
+      <div>
+        <USAMap customize={this.statesCustomConfig()} onClick={this.mapHandler} />
       </div>
     );
   }
 }
- 
-export default withStyles(MapStyles)(Map);
+
+export default withRouter(Map)
