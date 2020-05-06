@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { withStyles, Divider, Typography } from '@material-ui/core';
 import MichiganPageStyles from '../../styles/states/MichiganPageStyles';
 import NavBar from '../NavBar.js'
-
+import mich from '../../images/states/mich.png'
 
 class MichiganPage extends React.Component {
 
@@ -24,7 +24,7 @@ class MichiganPage extends React.Component {
                         Concealed Weapons Permits
                     </div>
                     <div className={classes.subHeading}>
-                        Carrying a concealed weapon in Michigan
+                        Obtaining a concealed weapons permit in Michigan
                     </div>
 
                     <div className={classes.dividerBox}>
@@ -47,7 +47,7 @@ class MichiganPage extends React.Component {
                         <div className={classes.mainTextContainerRight}>
 
                             <div className={classes.mainTextRight}>
-                                <img></img>
+                                <img src={mich}></img>
                                 <Typography className={classes.rangeText}>
                                    
                                 </Typography>

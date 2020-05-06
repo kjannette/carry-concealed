@@ -37,7 +37,7 @@ class MainPage extends React.Component {
 
                                 <Typography className={classes.textLeft}>
 
-                                    <p> <b>Welcome to your best starting point for information about concealed weapons permits. </b></p>
+                                    <p> <b>Welcome to your best starting point for information about concealed weapons permits. </b>Check out concealed weapons permit information <Link to="/map" className={classes.link}>by state.</Link></p>
 
                                     <p>The regulations regarding carrying a concealed weapon and concealed weapons permits  are generally govermened by state law, not federal gun laws (with some exceptions).  Therefore, the rights and obligations about carrying a concealed weapon 
                                         and concealed weapons permtis  vary from state to state.</p>
