@@ -38,7 +38,7 @@ class MapPage extends React.Component {
                             Select Your State for Local Information
                         </div>
 
-                        <div className={map-box}>
+                        <div className={classes.mapBox}>
 
                             <Map />
                         

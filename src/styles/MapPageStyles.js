@@ -61,6 +61,7 @@ export default (theme) => ({
     },
     mapBox: {
       justifyContent: 'center',
+      display: 'flex',
       marginTop: '-15px',
       marginBottom: '40px',
     },
