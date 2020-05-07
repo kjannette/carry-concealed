@@ -37,7 +37,7 @@ export default (theme) => ({
     },
     mainContainer: {
         backgroundColor: '#ebebeb',
-        height: '1050px',
+        height: '1450px',
     },
     mainHeading: {
         color: '#333',
@@ -102,13 +102,13 @@ export default (theme) => ({
     textLeft: {
       fontWeight: '300',
     },
-    range: {
+    pic: {
       width: '90%',
       paddingRight: '20px',
       paddingLeft: '20px',
       paddingTop: '30px',
     },
-    rangeText: {
+    picText: {
       width: '90%',
       paddingRight: '20px',
       paddingLeft: '20px',
