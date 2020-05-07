@@ -56,7 +56,7 @@ class MichiganPage extends React.Component {
                                                 deemed a resident of Michigan if he or she has a Michigan drivers license, is registered to vote in Michigan, or can present 
                                                 <a className={classes.link} href="https://www.michigan.gov/msp/0,4643,7-123-1878_1591_3503_4654-10926--,00.html"> other evidence</a> of residency.</li><br></br>
                                             <li>Have knowledge and 
-                                            <a className={classes.link} href="https://www.michigan.gov/mcoles/0,4607,7-229--148860--,00.html"> training in the safe use and handling of a pistol</a> by
+                                            <a className={classes.link} href="https://www.michigan.gov/mcoles/0,1607,7-229-41626_42485-148857--,00.html"> training in the safe use and handling of a pistol</a> by
                                                 successfully completing an appropriate pistol safety training course or class.</li><br></br>
                                             <li>Not be on probation, or subject to certain other court orders, such as for legal incapacity (this can be related to mental health issues), or a 
                                                 <a className={classes.link} href="https://www.michigan.gov/documents/msp/PPO_Brochure_2_176129_7.pdf>"> personal protection order.</a></li><br></br> 
