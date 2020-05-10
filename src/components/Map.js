@@ -4,7 +4,6 @@ import { withStyles, Divider, Typography } from '@material-ui/core';
 import USAMap from "react-usa-map";
 import MapStyles from '../styles/MapStyles.js'
 import SpecMapStyles from '../styles/SpecMapStyles.css'
-import NavBar from './NavBar.js'
 import { withRouter } from 'react-router'; 
 
 class Map extends React.Component {
@@ -23,6 +22,8 @@ class Map extends React.Component {
   };
  
   render() {
+
+    const { classes } = this.props;
 
     return (
       <div>

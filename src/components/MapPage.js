@@ -43,6 +43,12 @@ class MapPage extends React.Component {
                             <Map />
                         
                         </div>
+
+                        <div className={classes.mobileMapBox}>
+
+                            <h1>State Drop Down</h1>
+
+                        </div>
                         
                     </div>
 

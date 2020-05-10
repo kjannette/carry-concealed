@@ -38,10 +38,18 @@ export default (theme) => ({
       height: '85px',
       letterSpacing: '-0.2px',
       marginTop: '30px',
+      ['@media (max-width:430px)']: {
+        fontSize: '24px',
+        marginTop: '12px',
+        marginLeft: '13px',
+      },
     },
     mainContainer: {
-        backgroundColor: '#ebebeb',
-        height: '1000px',
+      backgroundColor: '#ebebeb',
+      height: '1000px',
+      ['@media (max-width:430px)']: {
+        height: '600px',
+      },
     },
     mainHeading: {
         color: '#333',
@@ -64,6 +72,14 @@ export default (theme) => ({
       display: 'flex',
       marginTop: '-15px',
       marginBottom: '40px',
+      ['@media (max-width:430px)']: {
+        display: 'none'
+      }
+    },
+    mobileMapBox: {
+      ['@media (max-width:430px)']: {
+        display: 'vsibile'
+      }
     },
     subContainer: {
 

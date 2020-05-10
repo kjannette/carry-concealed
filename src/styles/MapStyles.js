@@ -6,5 +6,8 @@ export default (theme) => ({
     path: {
         pointerEvents: 'all',
       },
+    usaMap: {
+
+    },
   })
   

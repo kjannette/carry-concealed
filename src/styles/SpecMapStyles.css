@@ -1,4 +1,4 @@
-path {
+  path {
     pointer-events: all;
   }
   path:hover {
@@ -10,3 +10,4 @@ path {
     margin-top: '-15px';
     margin-bottom: '40px';
   }
+
