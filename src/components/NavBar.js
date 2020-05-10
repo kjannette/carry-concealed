@@ -58,7 +58,7 @@ const NavBar = props => {
                 onClose={handleClose}
             >
                 <MenuItem onClick={handleClose} component={Link} to="/">Home</MenuItem>
-                <MenuItem onClick={handleClose}>CWP By State</MenuItem>
+                <MenuItem onClick={handleClose} component={Link} to="/map">CWP By State</MenuItem>
                 <MenuItem onClick={handleClose}>Contact</MenuItem>
             </Menu>
         </div>

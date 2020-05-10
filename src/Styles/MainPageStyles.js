@@ -30,6 +30,9 @@ export default (theme) => ({
     marginLeft: '25px',
     marginTop: '-8px',
     position: 'relative',
+    ['@media (max-width:430px)']: {
+      marginLeft: '12px',
+    },
   },
   link: {
     textDecoration: 'none',

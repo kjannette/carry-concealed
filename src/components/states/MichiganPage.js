@@ -91,15 +91,15 @@ class MichiganPage extends React.Component {
                         </div>
                 </div>
 
-                    <div className={classes.footer}>
+                <div className={classes.footer}>
 
-                        <Typography className={classes.footerText}>
-                            <p> All content Copyright © 2020 concealedweaponspermits.net<br></br>
-                                This website is for informational puposes only.  The materials contained herein are not intended to, and do not, constitute legal advice.
-                                <br></br>Individuals should verify local laws and regulations, and seek professional counsel.</p>
-                        </Typography>
+                    <Typography className={classes.footerText}>
+                        <p> All content Copyright © 2020 concealedweaponspermits.net<br></br>
+                            This website is for informational puposes only.  The materials contained herein are not intended to, and do not, constitute legal advice.
+                            <br></br>Individuals should verify local laws and regulations, and seek professional counsel.</p>
+                    </Typography>
 
-                    </div>
+                </div>
             </>
         );
     }

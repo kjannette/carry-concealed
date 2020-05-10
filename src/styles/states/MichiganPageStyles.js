@@ -30,6 +30,9 @@ export default (theme) => ({
       marginLeft: '25px',
       marginTop: '-8px',
       position: 'relative',
+      ['@media (max-width:430px)']: {
+        marginLeft: '12px',
+      },
     },
     link: {
       textDecoration: 'none',
@@ -62,7 +65,7 @@ export default (theme) => ({
       marginTop: '12px',
       width: '65%',
       ['@media (max-width:430px)']: {
-        height: '1800px',
+        height: '2200px',
         width: '100%',
       },
     },
