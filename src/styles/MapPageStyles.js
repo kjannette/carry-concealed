@@ -80,8 +80,14 @@ export default (theme) => ({
       }
     },
     mobileMapBox: {
-      ['@media (max-width:430px)']: {
-        display: 'vsibile'
+      display: 'flex',
+      justifyContent: 'center',
+      '& .MuiFormControl-root': {
+        backgroundColor: 'white',
+        width: '276px',
+      },
+      ['@media (min-width:430px)']: {
+        display: 'none'
       }
     },
     subContainer: {
