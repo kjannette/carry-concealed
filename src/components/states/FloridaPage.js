@@ -71,7 +71,7 @@ class MichiganPage extends React.Component {
 
                                             <li>Not have a domestic violence injunction or an injunction against repeat violence that is currently in force.</li><br></br>
 
-                                            <li>Not have renouncemed their U.S. citizenship, or a dishonorable discharge from the armed forces.</li><br></br>
+                                            <li>Not have renounced their U.S. citizenship, or a dishonorable discharge from the armed forces.</li><br></br>
 
                                             <li>Not be a fugitive.</li><br></br>
 
