@@ -8,6 +8,7 @@ import NoIssuePage from '../components/NoIssuePage.js'
 import MapPage from '../components/MapPage.js'
 import MichiganPage from '../components/states/MichiganPage.js'
 import TexasPage from '../components/states/TexasPage.js'
+import FloridaPage from '../components/states/FloridaPage.js'
 import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import ScrollToTop from '../utils/ScrollToTop.js'
@@ -32,6 +33,7 @@ class AppRouter extends React.Component {
             <Route exact path="/map" component={MapPage}/>
             <Route exact path="/michigan" component={MichiganPage}/>
             <Route exact path="/texas" component={TexasPage}/>
+            <Route exact path="/florida" component={FloridaPage}/>
         </Switch>
       </Router>
 

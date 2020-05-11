@@ -21,6 +21,9 @@ class Map extends React.Component {
       "TX": {
         clickHandler: (event) => history.push('/texas')
       },
+      "FL": {
+        clickHandler: (event) => history.push('/florida')
+      },
     };
   };
  
