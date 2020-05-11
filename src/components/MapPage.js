@@ -53,7 +53,7 @@ const MapPage = props => {
                     
                     </div>
 
-                    <div className={classes.mobileMapBox}>
+                    <div className={classes.selectBox}>
 
                         <FormControl variant="outlined" className={classes.formControl}>
                             <InputLabel id="state-select">Choose A State</InputLabel>

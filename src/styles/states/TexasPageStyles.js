@@ -1,4 +1,9 @@
 export default (theme) => ({
+
+    bodyClass: {
+        marginLeft: '0px',
+        marginRight: '0px',
+    },
     divider: {
       width: '1000px',
       ['@media (max-width:430px)']: {
@@ -12,7 +17,6 @@ export default (theme) => ({
     },
     footer: {
       clear: 'both',
-      display: 'block',
       backgroundColor: '#fff',
       height: '75px',
     },
@@ -30,29 +34,13 @@ export default (theme) => ({
         marginLeft: '12px',
       },
     },
-    lowerSubheading: {
-      color: '#4d4d4d',
-      display: 'flex',
-      fontFamily: 'Roboto',
-      fontSize: '30px',
-      justifyContent: 'center',
-      letterSpacing: '10.0px',
-      fontWeight: '100',
-      height: '85px',
-      letterSpacing: '-0.2px',
-      marginTop: '30px',
-      ['@media (max-width:430px)']: {
-        fontSize: '24px',
-        marginTop: '12px',
-        marginLeft: '13px',
-      },
+    link: {
+      textDecoration: 'none',
+      color: 'blue',
     },
     mainContainer: {
-      backgroundColor: '#ebebeb',
-      height: '1000px',
-      ['@media (max-width:430px)']: {
-        height: '600px',
-      },
+        backgroundColor: '#ebebeb',
+        height: '1450px',
     },
     mainHeading: {
         color: '#333',
@@ -70,28 +58,36 @@ export default (theme) => ({
         marginLeft: '12px',
       }
     },
-    mapBox: {
-      justifyContent: 'center',
-      display: 'flex',
-      marginTop: '-15px',
-      marginBottom: '40px',
+    mainTextContainerLeft: {
+      backgroundColor: '#ebebeb',
+      float: 'left',
+      height: '950px',
+      marginTop: '12px',
+      width: '65%',
       ['@media (max-width:430px)']: {
-        display: 'none'
-      }
-    },
-    selectBox: {
-      display: 'flex',
-      justifyContent: 'center',
-      '& .MuiFormControl-root': {
-        backgroundColor: 'white',
-        width: '276px',
+        height: '2200px',
+        width: '100%',
       },
-      ['@media (min-width:430px)']: {
-        display: 'none'
+    },
+    mainTextContainerRight: {
+      float: 'right',
+      backgroundColor: '#ebebeb',
+      height: '950px',
+      marginTop: '12px',
+      width: '35%',
+      ['@media (max-width:430px)']: {
+        display: 'none',
       }
     },
-    subContainer: {
-
+    mainTextLeft: {
+      marginLeft: '25px',
+      marginRight: '25px',
+    },
+    mainTextRight: {
+      height: '400px',
+      width: '80%',
+      backgroundColor: '#e0e0e0',
+      borderRadius: '15px',
     },
     subHeading: {
       color: '#333',
@@ -105,6 +101,24 @@ export default (theme) => ({
       ['@media (max-width:430px)']: {
         display: 'none',
       }
+  },
+    textLeft: {
+      fontWeight: '300',
     },
+    pic: {
+      width: '90%',
+      paddingRight: '20px',
+      paddingLeft: '20px',
+      paddingTop: '30px',
+    },
+    picText: {
+      width: '90%',
+      paddingRight: '20px',
+      paddingLeft: '20px',
+      fontWeight: '100',
+      fontSize: '13px',
+      marginTop: '2px',
+      lineHeight: '20px',
+    }
   })
   
